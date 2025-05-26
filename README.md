@@ -27,3 +27,8 @@ This comprehensive benchmark suite tests Tokio, async-std, and smol across five 
    cargo bench
    # Results in target/criterion/report/index.html
    ```
+
+## benchmark Reports
+ - ![images/aync_std.png](images/aync_std.png)
+ - ![images/smol.png](images/smol.png) 
+ - ![images/tokio.png](images/tokio.png)
