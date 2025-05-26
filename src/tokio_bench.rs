@@ -1,3 +1,5 @@
+// This file is part of the Tokio benchmark suite.
+// @author Walid El Sayed Aly
 use std::time::Instant;
 use tokio::time::{sleep, Duration};
 

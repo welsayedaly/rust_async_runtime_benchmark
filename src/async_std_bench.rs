@@ -1,3 +1,5 @@
+// This file is part of the smol benchmark suite.
+// @author Walid El Sayed Aly
 use std::time::Instant;
 use async_std::task;
 use async_std::channel;

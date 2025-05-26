@@ -1,3 +1,5 @@
+// This file is part of the smol benchmark suite.
+// @author Walid El Sayed Aly
 use std::time::Instant;
 use smol::{channel, net::{TcpListener, TcpStream}};
 use futures::prelude::*;

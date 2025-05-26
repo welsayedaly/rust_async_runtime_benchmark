@@ -1,5 +1,8 @@
+// This Code is part of a benchmark suite that compares the performance of different Rust async runtimes:
+// Tokio, async-std, and smol. It benchmarks the spawning of 1000 tasks that compute Fibonacci numbers, which is a CPU-bound operation.
+// Author: Walid El Sayed Aly
 use criterion::{black_box, criterion_group, criterion_main, Criterion};
-use std::time::Duration;
+
 
 fn fibonacci(n: u64) -> u64 {
     match n {

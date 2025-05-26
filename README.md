@@ -1,5 +1,14 @@
-## Usage Instructions
+## Rust synchronous Programming benchmarks 
 
+This comprehensive benchmark suite tests Tokio, async-std, and smol across five key scenarios:
+
+### Benchmark Categories
+
+1. Task Spawning - Raw task creation/completion speed
+2. Channel Communication - Message passing between tasks
+3. Timer Operations - Sleep/timeout efficiency
+4. Concurrent Tasks - Performance under high load
+5. TCP Echo Server - Real network I/O performance
 
 1. **Run benchmarks:**
    ```bash
@@ -18,11 +27,3 @@
    cargo bench
    # Results in target/criterion/report/index.html
    ```
-
-## What This Benchmarks
-
-- **Task Spawning**: How quickly each runtime can spawn and complete tasks
-- **Channel Communication**: Message passing performance between tasks  
-- **Timer Operations**: Efficiency of timeout/delay operations
-- **Concurrent Tasks**: Performance under high concurrency
-- **TCP Echo Server**: Real-world network I/O performance
